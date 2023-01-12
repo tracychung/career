@@ -1,6 +1,3 @@
-<?php
-include "./db/base.php";
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +10,9 @@ include "./db/base.php";
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>最新消息</title>
     <style>
+        .box{
+            height: 30px;
+        }
         .container {
             height: 30px;
         }
@@ -20,7 +20,9 @@ include "./db/base.php";
 </head>
 
 <body>
+    <div class="box">
 
+    </div>
     <div class="container mt-5">
         <p class="fs-3 fw-bold text-center" style="color:rgb(80, 110, 170)">
             最新消息

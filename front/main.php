@@ -64,7 +64,6 @@
         </div>
     </div>
 
-
     <div class="row mb-3" style="--bs-gutter-x: 0">
         <div class="col-4 col-sm-4 col-md-4 d-flex justify-content-center">
             <div class="card" style="width: auto; max-width: 300px;">

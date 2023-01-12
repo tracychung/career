@@ -1,3 +1,6 @@
+<?php
+include "./db/base.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
