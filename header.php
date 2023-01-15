@@ -36,11 +36,17 @@
                                         echo "</li>";
                                         echo "</ul>";
                                         echo "</div>";
-                                        if (isset($_SESSION['login'])) {
-                                            echo "<div class='col-sm-3 col-md-3 text-center'>";
-                                            echo "<a class='nav-link' href='admin_center.php'><button class='btn btn-primary' type='button'>回管理中心</button></a>";
-                                            echo "<a class='nav-link' href='logout.php'><button class='btn btn-primary' type='button'>登出</button></a>";
-                                            echo "</div>";
+                                        if (isset($_SESSION['login'])){
+                                            if($_SESSION['login']=='admin'){
+                                                echo "<div class='col-sm-3 col-md-3 text-center'>";
+                                                echo "<a class='nav-link' href='admin_center.php'><button class='btn btn-primary' type='button'>回管理中心</button></a>";
+                                                echo "<a class='nav-link' href='logout.php'><button class='btn btn-primary' type='button'>登出</button></a>";
+                                                echo "</div>";
+                                            }else{
+                                                echo "<div class='col-sm-3 col-md-3 text-center'>";
+                                                echo "<a class='nav-link' href='logout.php'><button class='btn btn-primary' type='button'>登出</button></a>";
+                                                echo "</div>";
+                                            }
                                         } else {
                                             echo "<div class='col-sm-3 col-md-3 text-center'>";
                                             echo "<a class='nav-link' href='index.php?do=signup'><button class='btn btn-primary' type='button'>註冊/登入</button></a>";

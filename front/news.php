@@ -13,17 +13,12 @@
         .box{
             height: 30px;
         }
-        .container {
-            height: 30px;
-        }
     </style>
 </head>
 
 <body>
-    <div class="box">
 
-    </div>
-    <div class="container mt-5">
+    <div class="container mt-5 box">
         <p class="fs-3 fw-bold text-center" style="color:rgb(80, 110, 170)">
             最新消息
         </p>
