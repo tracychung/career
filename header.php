@@ -38,9 +38,11 @@
                                         echo "</div>";
                                         if (isset($_SESSION['login'])){
                                             if($_SESSION['login']=='admin'){
-                                                echo "<div class='col-sm-3 col-md-3 text-center'>";
-                                                echo "<a class='nav-link' href='admin_center.php'><button class='btn btn-primary' type='button'>回管理中心</button></a>";
+                                                echo "<div class='col-sm-3 col-md-3'>";
+                                                echo "<div class='row'>";
+                                                echo "<a class='nav-link' href='admin_center.php'><button class='btn btn-primary' type='button'>回管理首頁</button></a>";
                                                 echo "<a class='nav-link' href='logout.php'><button class='btn btn-primary' type='button'>登出</button></a>";
+                                                echo "</div>";
                                                 echo "</div>";
                                             }else{
                                                 echo "<div class='col-sm-3 col-md-3 text-center'>";
@@ -59,16 +61,16 @@
                                         echo "<div class='col-sm-9 col-md-9 text-center'>";
                                         echo "<ul class='navbar-nav'>";
                                         echo "<li class='nav-item'>";
-                                        echo "<a class='nav-link' href='admin_center?do=news'>新聞管理</a>";
+                                        echo "<a class='nav-link' href='admin_center.php?do=news'>新聞管理</a>";
                                         echo "</li>";
                                         echo "<li class='nav-item'>";
-                                        echo "<a class='nav-link' href='admin_center?do=test'>測驗管理</a>";
+                                        echo "<a class='nav-link' href='admin_center.php?do=test'>測驗管理</a>";
                                         echo "</li>";
                                         echo "<li class='nav-item'>";
-                                        echo "<a class='nav-link' href='admin_center?do=survey'>問卷管理</a>";
+                                        echo "<a class='nav-link' href='admin_center.php?do=survey'>問卷管理</a>";
                                         echo "</li>";
                                         echo "<li class='nav-item'>";
-                                        echo "<a class='nav-link' href='admin_center?do=message'>分享管理</a>";
+                                        echo "<a class='nav-link' href='admin_center.php?do=message'>分享管理</a>";
                                         echo "</li>";
                                         echo "</ul>";
                                         echo "</div>";

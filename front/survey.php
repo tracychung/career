@@ -1,4 +1,4 @@
-<h3 class="text-center mt-5">進行中的意見調查</h3>
+<div class="fs-3 fw-bold mt-5 text-center" style="padding-top:20px;color:rgb(80, 110, 170)">進行中的意見調查</div>
 <ul class="list-group col-md-10 m-auto">
     <li class="d-flex text-center list-group-item list-group-item-info list-group-item-action">
         <div class="col-8">主題</div>

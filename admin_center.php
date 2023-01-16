@@ -23,11 +23,11 @@ if(!isset($_SESSION['login'])){
 
 </head>
 <body>
-</head>
-<body>
+
 <?php
-  include "./header.php";
-?>
+    include "./header.php";
+    ?>
+
 <main class="container">
 <?php
 $do=$_GET['do']??'main';
@@ -40,9 +40,7 @@ if(file_exists($file)){
 }
 ?>
 </main>
-<?php include "./footer.php";?>
-</body>
-</html>
-  
+
+
 </body>
 </html>

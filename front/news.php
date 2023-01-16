@@ -9,21 +9,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <title>最新消息</title>
-    <style>
-        .box{
-            height: 30px;
-        }
-    </style>
 </head>
 
 <body>
 
-    <div class="container mt-5 box">
+    <div class="container mt-5" style="padding-top: 20px;">
         <p class="fs-3 fw-bold text-center" style="color:rgb(80, 110, 170)">
             最新消息
         </p>
         <div>
-            <ul class="list-group">
+            <ul class="list-group m-auto">
                 <li class='list-group-item list-group-item-action d-flex text-center bg-info text-white'>
                     <div class='col-md-10'>標題</div>
                     <div class='col-md-2'>人氣</div>
