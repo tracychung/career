@@ -13,9 +13,7 @@
 </head>
 
 <body style="background-color: white;">
-    <?php
-    include "./header.php";
-    ?>
+  
    
     <!-- Carousel -->
     <div id="banner" class="carousel slide mb-3" data-bs-ride="carousel" style="padding-top: 56px;">
@@ -94,9 +92,7 @@
         </div>
     </div>
 
-    <?php
-    include "./footer.php";
-    ?>
+    
 </body>
 
 </html>

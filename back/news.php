@@ -1,7 +1,7 @@
 
 
 
-<div class="fs-3 fw-bold text-center" style="padding-top:200px;color:rgb(80, 110, 170)">活動管理</div>
+<div class="fs-3 fw-bold text-center" style="padding-top:70px;color:rgb(80, 110, 170)">活動管理</div>
 <a class="btn btn-primary" href="admin_center.php?do=add_news">新增活動</a>
 <hr>
 <ul class="list-group">

@@ -4,7 +4,7 @@ $news=$pdo->query("SELECT * FROM `news` WHERE `id`='{$_GET['id']}'")->fetch();
 
 ?>
 
-<h2 class="text-center">編輯消息</h2>
+<div class="fs-3 fw-bold text-center" style="padding-top:70px;color:rgb(80, 110, 170)">編輯活動</div>
 <form action="./api/news_edit.php" method="POST">
    <div class="form-group row">
         <label class="col-form-label col-md-2 text-right">主題</label>
@@ -37,13 +37,6 @@ $news=$pdo->query("SELECT * FROM `news` WHERE `id`='{$_GET['id']}'")->fetch();
                   name="content" 
                   style="height:200px"><?=$news['content'];?></textarea>
    </div> 
-   <div class="form-group row">
-        <label class="col-form-label col-md-2 text-right">類別</label>
-        <input type="text" 
-              class="form-control col-md-10" 
-               name="type" 
-               value="<?=$news['type'];?>">
-   </div>
    <div class="text-right text-secondary">現在時間:<?=date("Y-m-d H:i:s");?></div>
    <div class="text-center">
         <input type="hidden" name="id" value="<?=$news['id'];?>">

@@ -1,6 +1,6 @@
-<h3 class="text-center">調查列表</h3>
+<h3 class="fs-3 fw-bold text-center" style="padding-top:70px;color:rgb(80, 110, 170)">調查列表</h3>
 <div class="my-4 text-center">
-    <a href="admin_center.php?do=survey_add" class="btn btn-primary">新增調查</a>
+    <a href="admin_center.php?do=survey_add" class="btn btn-primary">新增問卷</a>
 </div>
 
 <ul class="list-group col-md-10 m-auto">

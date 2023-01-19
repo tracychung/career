@@ -1,4 +1,6 @@
 <footer>
+    <div id="myF">
+    </div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
@@ -8,4 +10,8 @@
             </ul>
         </div>
     </nav>
+    <script>
+        var myF = document.getElementById("myF");
+        myF.style.height = window.innerHeight + "px";
+    </script>
 </footer>

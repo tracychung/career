@@ -7,7 +7,7 @@ $account=$_POST['account'];
 $password=$_POST['password'];
 
 $sql="select `id` from `user` where `account`='$account' && `password`='$password' ";
-$chk=$pdo->query($sql)->fetchColumn();
+$chk=$pdo->query($sql)->fetchColumn(0);
 
 if($chk==1){
     $sql="select `id`,`account`,`name`,`last_login` from `user` where `account`='$account' && `password`='$password' ";

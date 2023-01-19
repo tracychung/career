@@ -4,9 +4,9 @@ $options=all("survey_options",['subject_id'=>$_GET['id']]);
 /* dd($subject);
 dd($options); */
 ?>
-<h3 class="text-center font-weight-bold">調查結果</h3>
+<div class="fs-3 fw-bold mt-5 text-center" style="padding-top:20px;color:rgb(80, 110, 170)">問卷結果</div>
 
-<h3 class="text-primary text-center"><?=$subject['subject'];?></h3>
+<div class="fs-4 fw-bold mt-3 text-primary text-center"><?=$subject['subject'];?></div>
 <ul class="list-group col-10 mx-auto">
     <?php
     foreach($options as $option){

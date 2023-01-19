@@ -10,7 +10,7 @@
 <?php
   include "./header.php";
 ?>
-    <h1 class="text-center" style="padding-top:56px;">後台管理中心</h1>
+    <h1 class="text-center" style="padding-top:70px;">後台管理中心</h1>
     <form action="./api/upload.php" method='post' enctype="multipart/form-data">
         <label for="">檔名<input type="text" name="name" ></label>
         <input type="file" name="img">

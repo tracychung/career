@@ -20,7 +20,7 @@
                                 switch ($local) {
                                     case "index":
                                         echo "<div class='row'>";
-                                        echo "<div class='col-sm-9 col-md-9 text-center'>";
+                                        echo "<div class='col-sm-8 col-md-8 d-flex align-items-center'>";
                                         echo "<ul class='navbar-nav'>";
                                         echo "<li class='nav-item'>";
                                         echo "<a class='nav-link' href='index.php?do=news'>最新消息</a>";
@@ -36,29 +36,33 @@
                                         echo "</li>";
                                         echo "</ul>";
                                         echo "</div>";
-                                        if (isset($_SESSION['login'])){
-                                            if($_SESSION['login']=='admin'){
-                                                echo "<div class='col-sm-3 col-md-3'>";
-                                                echo "<div class='row'>";
+                                        if (isset($_SESSION['login'])) {
+                                            if ($_SESSION['login']['id'] == 1) {
+                                                echo "<div class='col-sm-4 col-md-4 text-center'>";
+                                                echo "<ul class='navbar-nav'>";
+                                                echo "<li class='nav-item'>";
                                                 echo "<a class='nav-link' href='admin_center.php'><button class='btn btn-primary' type='button'>回管理首頁</button></a>";
+                                                echo "</li>";
+                                                echo "<li class='nav-item'>";
                                                 echo "<a class='nav-link' href='logout.php'><button class='btn btn-primary' type='button'>登出</button></a>";
+                                                echo "</li>";
+                                                echo "</ul>";
                                                 echo "</div>";
-                                                echo "</div>";
-                                            }else{
-                                                echo "<div class='col-sm-3 col-md-3 text-center'>";
+                                            } else {
+                                                echo "<div class='col-sm-4 col-md-4 text-center'>";
                                                 echo "<a class='nav-link' href='logout.php'><button class='btn btn-primary' type='button'>登出</button></a>";
                                                 echo "</div>";
                                             }
                                         } else {
-                                            echo "<div class='col-sm-3 col-md-3 text-center'>";
+                                            echo "<div class='col-sm-4 col-md-4 text-center'>";
                                             echo "<a class='nav-link' href='index.php?do=signup'><button class='btn btn-primary' type='button'>註冊/登入</button></a>";
                                             echo "</div>";
                                         }
                                         echo "</div>";
                                         break;
-                                        case "admin_center":
+                                    case "admin_center":
                                         echo "<div class='row'>";
-                                        echo "<div class='col-sm-9 col-md-9 text-center'>";
+                                        echo "<div class='col-sm-8 col-md-8 d-flex align-items-center'>";
                                         echo "<ul class='navbar-nav'>";
                                         echo "<li class='nav-item'>";
                                         echo "<a class='nav-link' href='admin_center.php?do=news'>新聞管理</a>";
@@ -74,9 +78,15 @@
                                         echo "</li>";
                                         echo "</ul>";
                                         echo "</div>";
-                                        echo "<div>";
+                                        echo "<div class='col-sm-4 col-md-4 text-center'>";
+                                        echo "<ul class='navbar-nav'>";
+                                        echo "<li class='nav-item'>";
                                         echo "<a class='nav-link' href='admin_center.php'><button class='btn btn-primary' type='button'>回管理首頁</button></a>";
+                                        echo "</li>";
+                                        echo "<li class='nav-item'>";
                                         echo "<a class='nav-link' href='logout.php'><button class='btn btn-primary' type='button'>登出</button></a>";
+                                        echo "</li>";
+                                        echo "</ul>";
                                         echo "</div>";
                                         break;
                                 }
