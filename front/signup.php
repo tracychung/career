@@ -12,9 +12,8 @@
 </head>
 
 <body>
-<?php
-    include "./header.php";
-    ?>
+
+
     <div class="row mt-3">
         <div class="col-md-4 mx-auto my-5 p-5 border shadow-sm">
         <h4 class='text-center'>會員註冊</h4>
@@ -61,9 +60,7 @@
     </div>
 
 
-    <?php
-    include "./footer.php";
-    ?>
+
 </body>
 
 </html>

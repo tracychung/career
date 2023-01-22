@@ -1,4 +1,9 @@
+<?php 
 
+if (!isset($_SESSION['login'])) {
+    header("location:index.php?do=signup");
+}
+?>
     <div class="row mt-3">
         <div class="col-md-4 mx-auto my-5 p-5 border shadow-sm">
             <h4 class='text-center'>心理測驗－別人眼中真實的你</h4>
@@ -131,7 +136,7 @@
                 </div>
                 <div class="row-cols-1 mb-3">
                     <div class="col">
-                        <label class="form-check-label mb-1" for="q7">7. 集中於一件是但突然被阻礙時，你會？</label>
+                        <label class="form-check-label mb-1" for="q7">7. 集中於一件事但突然被阻礙時，你會？</label>
                     </div>
                     <div class="col">
                         <input class="form-check-input" type="radio" value=6 name="q7" id="q71" required>
