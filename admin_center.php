@@ -30,13 +30,13 @@ if(!isset($_SESSION['login'])){
 
 <main class="container">
 <?php
-$do=$_GET['do']??'main';
+$do=$_GET['do']??'news';
 $file='./back/'.$do.".php";
 //echo $file;
 if(file_exists($file)){
     include $file;
 }else{
-    include "./back/main.php";
+    include "./back/news.php";
 }
 ?>
 </main>

@@ -9,7 +9,7 @@ if(isset($_GET['id'])){
 }
 
 ?>
-<h3 class="text-center font-weight-bold"><?=$survey['subject'];?></h3>
+<h3 class="fs-3 fw-bold mt-5 text-center" style="padding-top:20px;color:rgb(80, 110, 170)"><?=$survey['subject'];?></h3>
 
 <form action="./api/survey_vote.php" method="post">
 <div class="col-8 mx-auto mt-4">

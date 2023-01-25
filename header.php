@@ -26,7 +26,7 @@
                                         echo "<a class='nav-link' href='index.php?do=news'>最新消息</a>";
                                         echo "</li>";
                                         echo "<li class='nav-item'>";
-                                        echo "<a class='nav-link' href='index.php?do=test'>適性測驗</a>";
+                                        echo "<a class='nav-link' href='index.php?do=test'>心理測驗</a>";
                                         echo "</li>";
                                         echo "<li class='nav-item'>";
                                         echo "<a class='nav-link' href='index.php?do=survey'>問卷調查</a>";
