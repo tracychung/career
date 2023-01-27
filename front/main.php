@@ -87,15 +87,15 @@
                         alt="Cinque Terre"></a>
             </div>
             <div class="col-6 col-sm-6 col-md-3">
-                <a href="https://course.taiwanjobs.gov.tw/"><img src="../img/web2" class="img-thumbnail img-fluid"
+                <a href="https://course.taiwanjobs.gov.tw/"><img src="./img/web2" class="img-thumbnail img-fluid"
                         style="width:300px;height:100px" alt="Cinque Terre"></a>
             </div>
             <div class="col-6 col-sm-6 col-md-3">
-                <a href="https://ucan.moe.edu.tw/Account/Login.aspx"></a><img src="../img/web3"
+                <a href="https://ucan.moe.edu.tw/Account/Login.aspx"><img src="./img/web3"
                     class="img-thumbnail img-fluid" style="width:300px;height:100px" alt="Cinque Terre"></a>
             </div>
             <div class="col-6 col-sm-6 col-md-3">
-                <a href="https://www.onetonline.org/"><img src="../img/web4" class="img-thumbnail img-fluid"
+                <a href="https://www.onetonline.org/"><img src="./img/web4" class="img-thumbnail img-fluid"
                         style="width:300px;height:100px" alt="Cinque Terre"></a>
             </div>
         </div>
