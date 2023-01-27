@@ -32,7 +32,7 @@
                                         echo "<a class='nav-link' href='index.php?do=survey'>問卷調查</a>";
                                         echo "</li>";
                                         echo "<li class='nav-item'>";
-                                        echo "<a class='nav-link' href='index.php?do=message'>職訓分享</a>";
+                                        echo "<a class='nav-link' href='index.php?do=course'>職訓課程</a>";
                                         echo "</li>";
                                         echo "</ul>";
                                         echo "</div>";
@@ -74,7 +74,7 @@
                                         echo "<a class='nav-link' href='admin_center.php?do=survey'>問卷管理</a>";
                                         echo "</li>";
                                         echo "<li class='nav-item'>";
-                                        echo "<a class='nav-link' href='admin_center.php?do=message'>分享管理</a>";
+                                        echo "<a class='nav-link' href='admin_center.php?do=job'>職缺管理</a>";
                                         echo "</li>";
                                         echo "</ul>";
                                         echo "</div>";

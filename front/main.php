@@ -46,30 +46,6 @@
             <span class="carousel-control-next-icon"></span>
         </button>
     </div>
-
-    <div class="container-fluid text-center mt-5">
-        
-        <div class="row mb-3" style="--bs-gutter-x: 0">
-            <div class="col-6 col-sm-6 col-md-3">
-                <a href="https://tkyhkm.wda.gov.tw/">
-                    <img src="../img/web1" class="img-thumbnail img-fluid" style="width:300px;height:100px"
-                        alt="Cinque Terre"></a>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3">
-                <a href="https://course.taiwanjobs.gov.tw/"><img src="../img/web2" class="img-thumbnail img-fluid"
-                        style="width:300px;height:100px" alt="Cinque Terre"></a>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3">
-                <a href="https://ucan.moe.edu.tw/Account/Login.aspx"></a><img src="../img/web3"
-                    class="img-thumbnail img-fluid" style="width:300px;height:100px" alt="Cinque Terre"></a>
-            </div>
-            <div class="col-6 col-sm-6 col-md-3">
-                <a href="https://www.onetonline.org/"><img src="../img/web4" class="img-thumbnail img-fluid"
-                        style="width:300px;height:100px" alt="Cinque Terre"></a>
-            </div>
-        </div>
-    </div>
-
     <div class="container text-center mt-5">
         
         <div class="row mt-3 mb-3" style="--bs-gutter-x: 0">
@@ -102,7 +78,29 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5">
+    <div class="container-fluid text-center mt-5">
+        
+        <div class="row mb-3" style="--bs-gutter-x: 0">
+            <div class="col-6 col-sm-6 col-md-3">
+                <a href="https://tkyhkm.wda.gov.tw/">
+                    <img src="../img/web1" class="img-thumbnail img-fluid" style="width:300px;height:100px"
+                        alt="Cinque Terre"></a>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <a href="https://course.taiwanjobs.gov.tw/"><img src="../img/web2" class="img-thumbnail img-fluid"
+                        style="width:300px;height:100px" alt="Cinque Terre"></a>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <a href="https://ucan.moe.edu.tw/Account/Login.aspx"></a><img src="../img/web3"
+                    class="img-thumbnail img-fluid" style="width:300px;height:100px" alt="Cinque Terre"></a>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3">
+                <a href="https://www.onetonline.org/"><img src="../img/web4" class="img-thumbnail img-fluid"
+                        style="width:300px;height:100px" alt="Cinque Terre"></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-5 bg-secondary">
         
         <div class="row">
             <div class="col-5 col-sm-6 col-md-5 text-center">
@@ -125,6 +123,8 @@
             </div>
         </div>
     </div>
+    
+   
 
     
 </body>
