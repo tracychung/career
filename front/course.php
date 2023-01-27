@@ -10,14 +10,18 @@
 </head>
 
 <body>
+    <div style="padding-top: 100px;">
+
+    </div>
+    <button id="myBtn" class="btn btn-primary mb-5">print</button>
     <table id="example" class="display" style="width:100%">
         <thead>
 
-            <tr>
-                <th>no.</th>
-                <th>課程名稱</th>
-                <th>地點</th>
-                <th>課程時間</th>
+            <tr> 
+                <th style="width: 5%;">no.</th>
+                <th style="width: 10%;">課程名稱</th>
+                <th style="width: 10%;">地點</th>
+                <th style="width: 10%;">課程時間</th>
                 <th>課程內容</th>
             </tr>
         </thead>
@@ -41,8 +45,12 @@
 
 
 
-            // const myBtn = $('#myBtn');
+            const myBtn = $('#myBtn');
             const tbody = $('tbody');
+
+            myBtn.click(function () {
+                window.print();
+            });
 
             // ajax
             $.ajax({
@@ -60,15 +68,16 @@
                         let textContext = `
                             <tr>
                                 <td>${key + 1}</td>
-                                <td>${value.CLASSNAM}</td>
-                                <td>${value.CTNAMEE}</td>
+                                <td><a href="${value.URL}">${value.CLASSNAME}</a></td>
+                                <td>${value.CTNAME}</td>
                                 <td>${value.TRAINING_PERIOD}</td>
+                                <td>${value.CONTENT}</td>
                               
                             </tr>
                         `;
                         tbody.append(textContext);
                     });
-                    // tbody.append(contentText);
+                    tbody.append(contentText);
                     $('#example').DataTable({
                         language: {
                             "lengthMenu": "顯示 _MENU_ 筆資料",
@@ -101,22 +110,7 @@
                     });
 
 
-                    // let contentText = `
-                    //     <tr>
-                    //         <td>123</td>
-                    //         <td>456</td>
-                    //     </tr>
-                    // `;
-
-
-                    //key locationName
-
-                    // $.each(res.records.location, function (key, value) {
-                    //     console.log('key', key);
-                    //     console.log('value', value);
-                    //     console.log('value', value.locationName);
-                    // });
-
+                  
                 },
                 error: function(jqXHR, textStatus, errorThrown) {
                     // console.log('jqXHR', jqXHR);
