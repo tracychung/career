@@ -1,7 +1,7 @@
 <header>
     <div class="row">
         <nav class="fixed-top navbar navbar-expand-sm bg-white navbar-white text-dark">
-            <div class="container-fluid">
+            <div class="container-fluid cursor-pointer">
                 <div class="col-9 col-sm-3 col-md-2 text-center">
                     <a class="navbar-brand" href="index.php">
                         <i class="fa-regular fa-compass"></i>&nbspCAREER

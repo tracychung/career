@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>datatable</title>
+    <title>career</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.css">
 </head>
 
 <body>
-    <div style="padding-top: 100px;">
-
-    </div>
+<div class="container mt-5" style="padding-top: 20px;">
+        <p class="fs-3 fw-bold text-center" style="color:rgb(80, 110, 170)">
+            職訓課程
+        </p>
     <button id="myBtn" class="btn btn-primary mb-5">print</button>
     <table id="example" class="display" style="width:100%">
         <thead>

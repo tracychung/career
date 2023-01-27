@@ -100,7 +100,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid mt-5 bg-secondary">
+    <div class="container-fluid mt-5">
         
         <div class="row">
             <div class="col-5 col-sm-6 col-md-5 text-center">
